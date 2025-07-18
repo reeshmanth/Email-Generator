@@ -1,0 +1,14 @@
+# Core dependencies for AI Email Studio Pro
+streamlit>=1.28.0  # Web app framework
+pandas>=1.5.0      # Data handling (used for any tabular data)
+google-generativeai>=0.8.0  # Gemini AI integration
+
+# Email and Google API dependencies
+requests>=2.32.0   # HTTP requests (used by Google API and for any web requests)
+google-api-python-client>=2.70.0  # For Google API integration
+google-auth>=2.40.0  # For Google authentication
+
+# Email sending and attachments
+protobuf>=5.0.0     # For Google API and email attachments 
+
+# No additional dependencies required for current features 
